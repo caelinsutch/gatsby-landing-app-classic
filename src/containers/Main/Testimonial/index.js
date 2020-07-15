@@ -9,13 +9,13 @@ import Container from '../../../common/components/UI/Container';
 import Rating from '../../../common/components/Rating';
 import GlideCarousel from '../../../common/components/GlideCarousel';
 import GlideSlide from '../../../common/components/GlideCarousel/glideSlide';
-import { SectionHeader } from '../appClassic.style';
+import { SectionHeader } from '../mainStyle';
 import SectionWrapper, { CarouselWrapper } from './testimonial.style';
 
 const Testimonial = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         testimonial {
           slogan
           title
@@ -32,7 +32,7 @@ const Testimonial = () => {
       }
     }
   `);
-  const { slogan, title, reviews } = data.appClassicJson.testimonial;
+  const { slogan, title, reviews } = data.dataJson.testimonial;
 
   const glideOptions = {
     type: 'carousel',

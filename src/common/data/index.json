@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "logo": "../../assets/image/main/logo.png",
+    "logo": "../assets/image/main/logo.png",
     "navMenu": [
       {
         "id": 1,
@@ -31,22 +31,22 @@
   "client": [
     {
       "id": 1,
-      "image": "../../assets/image/main/client1.svg",
+      "image": "../assets/image/main/client1.svg",
       "title": "The new york times"
     },
     {
       "id": 2,
-      "image": "../../assets/image/main/client2.svg",
+      "image": "../assets/image/main/client2.svg",
       "title": "amazon"
     },
     {
       "id": 3,
-      "image": "../../assets/image/main/client3.svg",
+      "image": "../assets/image/main/client3.svg",
       "title": "evernote"
     },
     {
       "id": 4,
-      "image": "../../assets/image/main/client4.svg",
+      "image": "../assets/image/main/client4.svg",
       "title": "the verge"
     }
   ],
@@ -57,21 +57,21 @@
       {
         "id": 1,
         "color": "#F55767",
-        "icon": "../../assets/image/main/keyFeature-1.svg",
+        "icon": "../assets/image/main/keyFeature-1.svg",
         "title": "Increase Order Performence",
         "description": "More accurately predict customer arrival to increase efficiency of order preparation."
       },
       {
         "id": 2,
         "color": "#2563FF",
-        "icon": "../../assets/image/main/keyFeature-2.svg",
+        "icon": "../assets/image/main/keyFeature-2.svg",
         "title": "Prototyping",
         "description": "Get your blood tests delivered at home collect a sample from the news your blood tests."
       },
       {
         "id": 3,
         "color": "#40975F",
-        "icon": "../../assets/image/main/keyFeature-3.svg",
+        "icon": "../assets/image/main/keyFeature-3.svg",
         "title": "Vector Editing",
         "description": "Get your blood tests delivered at home collect a sample from the news your blood tests."
       }
@@ -81,17 +81,17 @@
     "carousel": [
       {
         "id": 1,
-        "image": "../../assets/image/main/appSlider1.png",
+        "image": "../assets/image/main/appSlider1.png",
         "title": "App Slide 1"
       },
       {
         "id": 2,
-        "image": "../../assets/image/main/appSlider2.png",
+        "image": "../assets/image/main/appSlider2.png",
         "title": "App Slide 1"
       },
       {
         "id": 3,
-        "image": "../../assets/image/main/appSlider3.png",
+        "image": "../assets/image/main/appSlider3.png",
         "title": "App Slide 1"
       }
     ],
@@ -125,49 +125,49 @@
       {
         "id": 1,
         "color": "#F55767",
-        "icon": "../../assets/image/main/featureIcon-1.svg",
+        "icon": "../assets/image/main/featureIcon-1.svg",
         "title": "App Development",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 2,
         "color": "#3DABDD",
-        "icon": "../../assets/image/main/featureIcon-2.svg",
+        "icon": "../assets/image/main/featureIcon-2.svg",
         "title": "10 Times Award",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 3,
         "color": "#D6AB00",
-        "icon": "../../assets/image/main/featureIcon-3.svg",
+        "icon": "../assets/image/main/featureIcon-3.svg",
         "title": "Cloud Storage",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 4,
         "color": "#40975F",
-        "icon": "../../assets/image/main/featureIcon-4.svg",
+        "icon": "../assets/image/main/featureIcon-4.svg",
         "title": "Customization",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 5,
         "color": "#5856D6",
-        "icon": "../../assets/image/main/featureIcon-5.svg",
+        "icon": "../assets/image/main/featureIcon-5.svg",
         "title": "UX Planning",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       },
       {
         "id": 6,
         "color": "#E97325",
-        "icon": "../../assets/image/main/featureIcon-6.svg",
+        "icon": "../assets/image/main/featureIcon-6.svg",
         "title": "Customer Support",
         "description": "Get your proof tests delivered home collect a sample from the news get design."
       }
     ]
   },
   "designAndBuilt": {
-    "image": "../../assets/image/main/appAndMap.png",
+    "image": "../assets/image/main/appAndMap.png",
     "title": "Designed & Built by the latest code integration",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features that Lorem ipsum dolor sit amet consectetur."
   },
@@ -178,50 +178,50 @@
       {
         "id": 1,
         "color": "#F55767",
-        "icon": "../../assets/image/main/appTabIcon1.svg",
+        "icon": "../assets/image/main/appTabIcon1.svg",
         "title": "App Development",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/main/appTabImg1.png"
+        "image": "../assets/image/main/appTabImg1.png"
       },
       {
         "id": 2,
         "color": "#40975F",
-        "icon": "../../assets/image/main/appTabIcon2.svg",
+        "icon": "../assets/image/main/appTabIcon2.svg",
         "title": "Customization",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/main/appTabImg2.png"
+        "image": "../assets/image/main/appTabImg2.png"
       },
       {
         "id": 3,
         "color": "#5856D6",
-        "icon": "../../assets/image/main/appTabIcon3.svg",
+        "icon": "../assets/image/main/appTabIcon3.svg",
         "title": "UX Planning",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/main/appTabImg3.png"
+        "image": "../assets/image/main/appTabImg3.png"
       },
       {
         "id": 4,
         "color": "#D6AB00",
-        "icon": "../../assets/image/main/appTabIcon4.svg",
+        "icon": "../assets/image/main/appTabIcon4.svg",
         "title": "Cloud Storage",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/main/appTabImg4.png"
+        "image": "../assets/image/main/appTabImg4.png"
       },
       {
         "id": 5,
         "color": "#E97325",
-        "icon": "../../assets/image/main/appTabIcon5.svg",
+        "icon": "../assets/image/main/appTabIcon5.svg",
         "title": "Customer Support",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/main/appTabImg5.png"
+        "image": "../assets/image/main/appTabImg5.png"
       },
       {
         "id": 6,
         "color": "#3DABDD",
-        "icon": "../../assets/image/main/appTabIcon6.svg",
+        "icon": "../assets/image/main/appTabIcon6.svg",
         "title": "10 Times Award",
         "description": "Get your proof tests delivered home collect a sample.",
-        "image": "../../assets/image/main/appTabImg6.png"
+        "image": "../assets/image/main/appTabImg6.png"
       }
     ]
   },
@@ -399,7 +399,7 @@
     ]
   },
   "joinSlack": {
-    "logo": "../../assets/image/main/slack.png",
+    "logo": "../assets/image/main/slack.png",
     "title": "Start your 30 days free trail today!",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
   },
@@ -407,24 +407,24 @@
     "widgets": [
       {
         "id": 1,
-        "icon": "../../assets/image/main/chat.svg",
+        "icon": "../assets/image/main/chat.svg",
         "title": "Join the Community",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
       },
       {
         "id": 2,
-        "icon": "../../assets/image/main/group.svg",
+        "icon": "../assets/image/main/group.svg",
         "title": "Join in Chat Community",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
       },
       {
         "id": 3,
-        "icon": "../../assets/image/main/github.svg",
+        "icon": "../assets/image/main/github.svg",
         "title": "Github Access",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
       }
     ],
-    "logo": "../../assets/image/main/logoWhite.png",
+    "logo": "../assets/image/main/logoWhite.png",
     "menu": [
       {
         "id": 1,

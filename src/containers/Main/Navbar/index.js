@@ -16,7 +16,7 @@ import NavbarWrapper, { MenuArea, MobileMenu, Search } from './navbar.style';
 const Navbar = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         navbar {
           logo {
             publicURL
@@ -31,7 +31,7 @@ const Navbar = () => {
       }
     }
   `);
-  const { logo, navMenu } = data.appClassicJson.navbar;
+  const { logo, navMenu } = data.dataJson.navbar;
 
   const [state, setState] = useState({
     search: '',

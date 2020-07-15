@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../common/theme/appclassic';
+import { theme } from '../common/theme';
 import { ResetCSS } from '../common/assets/css/style';
 import Sticky from 'react-stickynode';
 import Navbar from '../containers/Main/Navbar';
@@ -19,7 +19,7 @@ import Footer from '../containers/Main/Footer';
 import GlobalStyle, {
   AppWrapper,
   ContentWrapper,
-} from '../containers/Main/appClassic.style';
+} from '../containers/Main/mainStyle';
 
 import SEO from '../components/seo';
 

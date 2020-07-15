@@ -15,13 +15,13 @@ import {
   OpenIcon,
   CloseIcon,
 } from '../../../common/components/Accordion';
-import { SectionHeader } from '../appClassic.style';
+import { SectionHeader } from '../mainStyle';
 import FaqSection from './faq.style';
 
 const Faq = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         faq {
           slogan
           title
@@ -34,7 +34,7 @@ const Faq = () => {
       }
     }
   `);
-  const { slogan, title, faqs } = data.appClassicJson.faq;
+  const { slogan, title, faqs } = data.dataJson.faq;
 
   return (
     <FaqSection id="faq">

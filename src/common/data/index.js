@@ -20,7 +20,7 @@
 /* ------------------------------------ */
 // Navbar data section
 /* ------------------------------------ */
-import logo from '../../../common/assets/image/main/logo.png';
+import logo from '../assets/image/main/logo.png';
 
 export const navbar = {
   logo: logo,
@@ -61,10 +61,10 @@ export const navbar = {
 /* ------------------------------------ */
 // client data section
 /* ------------------------------------ */
-import client1 from '../../../common/assets/image/main/client1.svg';
-import client2 from '../../../common/assets/image/main/client2.svg';
-import client3 from '../../../common/assets/image/main/client3.svg';
-import client4 from '../../../common/assets/image/main/client4.svg';
+import client1 from '../assets/image/main/client1.svg';
+import client2 from '../assets/image/main/client2.svg';
+import client3 from '../assets/image/main/client3.svg';
+import client4 from '../assets/image/main/client4.svg';
 
 export const client = [
   {
@@ -92,9 +92,9 @@ export const client = [
 /* ------------------------------------ */
 // Key Features data section
 /* ------------------------------------ */
-import keyFeature1 from '../../../common/assets/image/main/keyFeature-1.svg';
-import keyFeature2 from '../../../common/assets/image/main/keyFeature-2.svg';
-import keyFeature3 from '../../../common/assets/image/main/keyFeature-3.svg';
+import keyFeature1 from '../assets/image/main/keyFeature-1.svg';
+import keyFeature2 from '../assets/image/main/keyFeature-2.svg';
+import keyFeature3 from '../assets/image/main/keyFeature-3.svg';
 
 export const keyFeatures = {
   slogan: 'WHATS THE FUNCTION',
@@ -130,9 +130,9 @@ export const keyFeatures = {
 /* ------------------------------------ */
 // App slider data section
 /* ------------------------------------ */
-import appSlide1 from '../../../common/assets/image/main/appSlider1.png';
-import appSlide2 from '../../../common/assets/image/main/appSlider2.png';
-import appSlide3 from '../../../common/assets/image/main/appSlider3.png';
+import appSlide1 from '../assets/image/main/appSlider1.png';
+import appSlide2 from '../assets/image/main/appSlider2.png';
+import appSlide3 from '../assets/image/main/appSlider3.png';
 
 export const appSlider = {
   carousel: [
@@ -182,12 +182,12 @@ export const appSlider = {
 /* ------------------------------------ */
 // Features data section
 /* ------------------------------------ */
-import featureIcon1 from '../../../common/assets/image/main/featureIcon-1.svg';
-import featureIcon2 from '../../../common/assets/image/main/featureIcon-2.svg';
-import featureIcon3 from '../../../common/assets/image/main/featureIcon-3.svg';
-import featureIcon4 from '../../../common/assets/image/main/featureIcon-4.svg';
-import featureIcon5 from '../../../common/assets/image/main/featureIcon-5.svg';
-import featureIcon6 from '../../../common/assets/image/main/featureIcon-6.svg';
+import featureIcon1 from '../assets/image/main/featureIcon-1.svg';
+import featureIcon2 from '../assets/image/main/featureIcon-2.svg';
+import featureIcon3 from '../assets/image/main/featureIcon-3.svg';
+import featureIcon4 from '../assets/image/main/featureIcon-4.svg';
+import featureIcon5 from '../assets/image/main/featureIcon-5.svg';
+import featureIcon6 from '../assets/image/main/featureIcon-6.svg';
 
 export const features = {
   slogan: 'PRODUCT COMPARISON',
@@ -247,7 +247,7 @@ export const features = {
 /* ------------------------------------ */
 // Design and built data section
 /* ------------------------------------ */
-import builtLogo from '../../../common/assets/image/main/appAndMap.png';
+import builtLogo from '../assets/image/main/appAndMap.png';
 
 export const designAndBuilt = {
   image: builtLogo,
@@ -259,19 +259,19 @@ export const designAndBuilt = {
 /* ------------------------------------ */
 // Feature tab data section
 /* ------------------------------------ */
-import appTabIcon1 from '../../../common/assets/image/main/appTabIcon1.svg';
-import appTabIcon2 from '../../../common/assets/image/main/appTabIcon2.svg';
-import appTabIcon3 from '../../../common/assets/image/main/appTabIcon3.svg';
-import appTabIcon4 from '../../../common/assets/image/main/appTabIcon4.svg';
-import appTabIcon5 from '../../../common/assets/image/main/appTabIcon5.svg';
-import appTabIcon6 from '../../../common/assets/image/main/appTabIcon6.svg';
+import appTabIcon1 from '../assets/image/main/appTabIcon1.svg';
+import appTabIcon2 from '../assets/image/main/appTabIcon2.svg';
+import appTabIcon3 from '../assets/image/main/appTabIcon3.svg';
+import appTabIcon4 from '../assets/image/main/appTabIcon4.svg';
+import appTabIcon5 from '../assets/image/main/appTabIcon5.svg';
+import appTabIcon6 from '../assets/image/main/appTabIcon6.svg';
 // image
-import appTabImg1 from '../../../common/assets/image/main/appTabImg1.png';
-import appTabImg2 from '../../../common/assets/image/main/appTabImg2.png';
-import appTabImg3 from '../../../common/assets/image/main/appTabImg3.png';
-import appTabImg4 from '../../../common/assets/image/main/appTabImg4.png';
-import appTabImg5 from '../../../common/assets/image/main/appTabImg5.png';
-import appTabImg6 from '../../../common/assets/image/main/appTabImg6.png';
+import appTabImg1 from '../assets/image/main/appTabImg1.png';
+import appTabImg2 from '../assets/image/main/appTabImg2.png';
+import appTabImg3 from '../assets/image/main/appTabImg3.png';
+import appTabImg4 from '../assets/image/main/appTabImg4.png';
+import appTabImg5 from '../assets/image/main/appTabImg5.png';
+import appTabImg6 from '../assets/image/main/appTabImg6.png';
 
 export const featuresTab = {
   slogan: 'DIFFERENTIATION',
@@ -525,7 +525,7 @@ export const faq = {
 /* ------------------------------------ */
 // Join Slack data section
 /* ------------------------------------ */
-import slackLogo from '../../../common/assets/image/main/slack.png';
+import slackLogo from '../assets/image/main/slack.png';
 
 export const joinSlack = {
   logo: slackLogo,
@@ -537,10 +537,10 @@ export const joinSlack = {
 /* ------------------------------------ */
 // Footer data section
 /* ------------------------------------ */
-import chat from '../../../common/assets/image/main/chat.svg';
-import group from '../../../common/assets/image/main/group.svg';
-import github from '../../../common/assets/image/main/github.svg';
-import footerLogo from '../../../common/assets/image/main/logoWhite.png';
+import chat from '../assets/image/main/chat.svg';
+import group from '../assets/image/main/group.svg';
+import github from '../assets/image/main/github.svg';
+import footerLogo from '../assets/image/main/logoWhite.png';
 
 export const footer = {
   widgets: [

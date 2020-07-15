@@ -17,7 +17,7 @@ import FooterArea, {
 const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         footer {
           logo {
             publicURL
@@ -39,7 +39,7 @@ const Footer = () => {
       }
     }
   `);
-  const { logo, menu, widgets } = data.appClassicJson.footer;
+  const { logo, menu, widgets } = data.dataJson.footer;
 
   const date = new Date();
   const year = date.getFullYear();

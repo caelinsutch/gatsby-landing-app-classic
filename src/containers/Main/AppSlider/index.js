@@ -12,7 +12,7 @@ import SectionWrapper, { CarouseWrapper, TextWrapper } from './appSlider.style';
 const AppSlider = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         appSlider {
           title
           description
@@ -38,7 +38,7 @@ const AppSlider = () => {
     description,
     features,
     carousel,
-  } = data.appClassicJson.appSlider;
+  } = data.dataJson.appSlider;
 
   const glideOptions = {
     type: 'carousel',

@@ -10,13 +10,13 @@ import Heading from '../../../common/components/Heading';
 import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
 import FeatureBlock from '../../../common/components/FeatureBlock';
-import { SectionHeader } from '../appClassic.style';
+import { SectionHeader } from '../mainStyle';
 import SectionWrapper, { FeatureWrapper } from './features.style';
 
 const Features = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         features {
           slogan
           title
@@ -33,7 +33,7 @@ const Features = () => {
       }
     }
   `);
-  const { slogan, title, items } = data.appClassicJson.features;
+  const { slogan, title, items } = data.dataJson.features;
 
   return (
     <SectionWrapper>

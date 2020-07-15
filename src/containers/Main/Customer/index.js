@@ -7,7 +7,7 @@ import CustomerWrapper, { ImageWrapper } from './customer.style';
 const Customer = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         client {
           id
           title
@@ -18,7 +18,7 @@ const Customer = () => {
       }
     }
   `);
-  const { client } = data.appClassicJson;
+  const { client } = data.dataJson;
 
   return (
     <CustomerWrapper>

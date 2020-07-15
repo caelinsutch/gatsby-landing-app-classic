@@ -10,7 +10,7 @@ import JoinTrailArea, { ContentWrapper, ButtonGroup } from './joinTrail.style';
 const JoinTrail = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         joinSlack {
           logo {
             publicURL
@@ -21,7 +21,7 @@ const JoinTrail = () => {
       }
     }
   `);
-  const { logo, title, description } = data.appClassicJson.joinSlack;
+  const { logo, title, description } = data.dataJson.joinSlack;
 
   return (
     <JoinTrailArea id="trail">

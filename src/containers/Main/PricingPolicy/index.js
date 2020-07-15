@@ -6,7 +6,7 @@ import Text from '../../../common/components/Text';
 import Heading from '../../../common/components/Heading';
 import Button from '../../../common/components/Button';
 import Container from '../../../common/components/UI/Container';
-import { SectionHeader } from '../appClassic.style';
+import { SectionHeader } from '../mainStyle';
 import SectionWrapper, {
   ButtonGroup,
   PricingArea,
@@ -19,7 +19,7 @@ import crown from '../../../common/assets/image/main/crown.svg';
 const PricingPolicy = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         pricing {
           slogan
           title
@@ -53,7 +53,7 @@ const PricingPolicy = () => {
       }
     }
   `);
-  const { slogan, title, monthly, annualy } = data.appClassicJson.pricing;
+  const { slogan, title, monthly, annualy } = data.dataJson.pricing;
 
   const [state, setState] = useState({
     active: 'monthly',

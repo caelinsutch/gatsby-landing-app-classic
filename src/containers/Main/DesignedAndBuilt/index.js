@@ -10,7 +10,7 @@ import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
 const DesignedAndBuilt = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         designAndBuilt {
           image {
             publicURL
@@ -21,7 +21,7 @@ const DesignedAndBuilt = () => {
       }
     }
   `);
-  const { image, title, description } = data.appClassicJson.designAndBuilt;
+  const { image, title, description } = data.dataJson.designAndBuilt;
 
   return (
     <SectionWrapper>

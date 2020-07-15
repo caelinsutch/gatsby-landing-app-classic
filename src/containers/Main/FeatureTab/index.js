@@ -11,13 +11,13 @@ import Heading from '../../../common/components/Heading';
 import Tab, { Panel } from '../../../common/components/Tabs';
 import Container from '../../../common/components/UI/Container';
 import FeatureBlock from '../../../common/components/FeatureBlock';
-import { SectionHeader } from '../appClassic.style';
+import { SectionHeader } from '../mainStyle';
 import SectionWrapper, { TabArea } from './featureTab.style';
 
 const FeatureTab = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      dataJson {
         featuresTab {
           slogan
           title
@@ -37,7 +37,7 @@ const FeatureTab = () => {
       }
     }
   `);
-  const { slogan, title, tab } = data.appClassicJson.featuresTab;
+  const { slogan, title, tab } = data.dataJson.featuresTab;
 
   return (
     <SectionWrapper>
