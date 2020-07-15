@@ -1,3 +1,6 @@
+# IDE Settings
+.idea
+
 # Logs
 logs
 *.log
